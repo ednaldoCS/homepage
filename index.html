@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Devchallenges</title>
+
+    <script type="text/javascript">
+      function toggle() {
+        let e=document.getElementById('nav')
+        if (e.style.display=='none') {
+          e.style.display='flex'
+          document.getElementById('icon').innerHTML='menu_open'
+          document.getElementById('menuHamburger').style.color='white'
+          document.getElementById('body').classList='active'
+        }else{
+          e.style.display='none'
+          document.getElementById('icon').innerHTML='menu'
+          document.getElementById('menuHamburger').style.color='black'
+          document.getElementById('body').classList=''
+        }
+        
+      }
+    </script>
+  </head>
+  <body id="body">
+   <header>
+     <a href="#" class="logo">Edie</a>
+     <nav id="nav">
+       <ul>
+         <li>
+           <a href="index.html">Home</a>
+         </li>
+         <li>
+           <a href="services.html">Services</a>
+         </li>
+         <li>
+           <a href="ourWorks.html">Our works</a>
+         </li>
+         <li>
+           <a href="clients.html">Clients</a>
+         </li>
+         <li>
+           <a href="contact.html">Contact</a>
+         </li>
+       </ul>
+     </nav>
+
+     <div id="menuHamburger" onclick="toggle()">
+       <span class="material-icons" id="icon">menu</span>
+     </div>
+   </header>
+
+   <main>
+     <section class="start">
+       <div class="textStart">
+         <h2>Unhappy with your website?</h2>
+         <h1>We create beautiful and fast web services</h1>
+       </div>
+       <div class="heroImageArea">
+         <img src="heroImage.jpg">
+       </div>
+
+       <div class="textAfterHeroIMage">
+         <h1>Story, emotion and purpose</h1>
+         <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+         </p>
+
+         <span>Want us to contact you?</span>
+
+         <div class="contact">
+           <input type="mail" placeholder="Email">
+           <button href="#" type="submit">Join</button>
+         </div>
+       </div>
+     </section>
+
+     <section class="middle-top">
+       <div >
+         <h2 class="middle-top-tittle">We offer high demand services  </h2>
+         <div class="cards">
+           <div class="ui-ux-designer">
+            <span class="material-icons">edit</span>
+            <h2>UI/UX Designer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+
+            <button>Get started</button>
+           </div>
+           <div class="frontEnd">
+             <span class="material-icons">code</span>
+             <h2>Front End</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+             <button>Get started</button>
+           </div>
+           <div class="backEnd">
+             <span class="material-icons">view_list</span>
+             <h2>Back End</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+             <button>Get started</button>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section class="middle-bottom">
+       <div>
+         <h2 class="middle-bottom-tittle">Good design means good business</h2>
+         <div class="middle-bottom-imgs">
+           <div class="f1">
+            <img src="smarthome.jpg">
+            <span>Full Stack application</span>
+            <h2>Smart home dashboard</h2>
+           </div>
+           <div class="f2">
+            <img src="onboard.png">
+            <span>UI/UX Design</span>
+            <h2>Onboard application</h2>
+           </div>
+           <div class="f3">
+            <img src="booking.png">
+            <span>Mobile application</span>
+            <h2>Booking system</h2>
+           </div>
+           <div class="f4">
+            <img src="juice-product.png">
+            <span>Front End application</span>
+            <h2>Booking system</h2>
+           </div>
+         </div>
+
+         <a href="#" class="seeMore">See more -></a>
+       </div>
+     </section>
+
+     <section class="end">
+       <div class="content1">
+         <div class="end-text">
+           <span>Meet the team</span>
+           <h1>We are chilled and a laidback team</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         </div>
+
+         <div class="end-imgs">
+           <div>
+              <div class="foto1"><img src="person1.png"></div>
+              <div  class="foto2"><img src="person2.png"></div>  
+           </div>
+           <div  class="foto3"><img src="person3.png"></div>
+         </div>
+       </div>
+       <div class="content2">
+         <h2>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</h2>
+         <div class="feedBackPerson">
+           <div class="persoImg" ><img src="person4.png"></div>
+           <div class="persoInfo">
+             <h3>Carlos Tran</h3>
+             <p>The Decorate Gatsby</p>
+           </div>
+         </div>
+       </div>
+     </section>
+   </main>
+
+   <footer>
+     <div class="footerContent">
+       <div>
+         <ul>
+           <li>
+             <a href="index.html">Home</a>
+           </li>
+           <li>
+             <a href="services.html">Services</a>
+           </li>
+           <li>
+             <a href="ourWorks.html">Our works</a>
+           </li>
+
+           <li>
+             <a href="clients.html">Clients</a>
+           </li>
+           <li>
+             <a href="contact.html">Contact</a>
+           </li>
+         </ul>
+       </div>
+       <div>
+         <h3>Edie</h3>
+         <div class="socialIcons">
+           <div><img src="instagram.svg"></div>
+           <div><img src="linkedin.svg"></div>
+           <div><img src="twitter.svg"></div>
+         </div>
+       </div>
+       <div class="areaContact">
+         <div class="contact" >
+           <input type="email" placeholder="email">
+           <button>Join</button>
+         </div>
+       </div>
+     </div>
+
+     <div class="rodape">
+       Created by Ednaldo - <a href="https://devchallenges.io" target="_blank">devChallenges.io</a>
+     </div>
+   </footer>
+  </body>
+</html>
+
+
+
